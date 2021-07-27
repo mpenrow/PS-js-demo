@@ -1,8 +1,5 @@
-// show the title
-showMessage("Title...");
 
-/*
-    Detail complex logic...
-    Some algorith...
-    
-*/
+let price = 25;
+
+showMessage(price);
+console.log(price);
