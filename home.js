@@ -1,5 +1,7 @@
 
-let price = 25;
+let person = {
+    firstName: 'John',
+    lastName: 'Adams'
+};
 
-showMessage(price);
-console.log(price);
+showMessage(person.firstName);
