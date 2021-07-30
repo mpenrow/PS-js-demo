@@ -1,5 +1,6 @@
 
-let price = 20;
-
-let message = (price > 10) ? 'yes' : 'no';
-showMessage(message);
+let i = 4;
+do {
+    console.log(i);
+    i--;
+} while (i > 0)
