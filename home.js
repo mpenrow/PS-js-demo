@@ -1,7 +1,5 @@
 
-let person = {
-    firstName: 'John',
-    lastName: 'Adams'
-};
+let price = 20;
 
-showMessage(person.firstName);
+let message = (price > 10) ? 'yes' : 'no';
+showMessage(message);
