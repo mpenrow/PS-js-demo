@@ -1,12 +1,16 @@
-let mySymbol = Symbol();
+const button = document.getElementById("see-review");
 
-let person = {
-    name: 'John',
-    age: 32,
-    partTime: false,
-    showInfo: function(realAge) {
-        showMessage(this.name + ' is ' + realAge);
+button.addEventListener('click', function() {
+    const review = document.getElementById("review");
+
+    const dNone = 'd-none';
+    if (review.classList.contains(dNone)) {
+        review.classList.remove(dNone);
+        button.textContent = "CLOSE REVIEW";
     }
-};
-
-showMessage(typeof person.showInfo);
+    else {
+        review.classList.add(dNone);
+        button.textContent = "SEE REVIEW";
+    }
+    
+});
