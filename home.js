@@ -1,3 +1,5 @@
-const containers = document.getElementsByClassName("container");
-containers[2].classList.add("d-none");
-console.log(containers);
+"use strict";
+
+const productId = 1234;
+
+console.log(productId);
